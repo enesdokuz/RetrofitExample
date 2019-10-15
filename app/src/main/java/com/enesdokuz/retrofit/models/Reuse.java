@@ -26,4 +26,12 @@ public class Reuse {
     @SerializedName("capsule")
     @Expose
     public Boolean capsule;
+
+    public void setCore(Boolean core) {
+        this.core = core;
+    }
+
+    public Boolean getCore() {
+        return core;
+    }
 }
